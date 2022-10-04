@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         combinationsList.add(new int[]{1,4,7});
         combinationsList.add(new int[]{2,5,8});
         combinationsList.add(new int[]{0,4,8});
+        combinationsList.add(new int[]{2,4,6});
 
         final String getPlayerOneName = getIntent().getStringExtra("playerOne");
         final String getPlayerTwoName = getIntent().getStringExtra("playerTwo");
